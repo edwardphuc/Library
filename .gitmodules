@@ -1,0 +1,3 @@
+[submodule "photo"]
+	path = photo
+	url = https://github.com/edwardphuc/Library.git
