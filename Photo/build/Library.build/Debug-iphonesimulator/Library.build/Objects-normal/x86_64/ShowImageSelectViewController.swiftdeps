@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShowImageSelectViewController"
+provides-nominal:
+- "7Library29ShowImageSelectViewControllerC"
+provides-member:
+- ["7Library29ShowImageSelectViewControllerC", ""]
+provides-dynamic-lookup:
+- "fetchData"
+- "imageSelect"
+- "realmDB"
+- "setupUI"
+- "viewDidLoad"
+depends-top-level:
+- !private "..<"
+- "AssignmentPrecedence"
+- "DBManager"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Results"
+- "ShowImageSelectViewController"
+- "UIViewController"
+depends-member:
+- ["s7CVarArgP", "DBManager"]
+- ["s7CVarArgP", "Results"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "fetchData"]
+- !private ["s7CVarArgP", "imageSelect"]
+- !private ["s7CVarArgP", "realmDB"]
+- !private ["s7CVarArgP", "setupUI"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "DBManager"]
+- ["s28CustomDebugStringConvertibleP", "Results"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "fetchData"]
+- !private ["s28CustomDebugStringConvertibleP", "imageSelect"]
+- !private ["s28CustomDebugStringConvertibleP", "realmDB"]
+- !private ["s28CustomDebugStringConvertibleP", "setupUI"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "DBManager"]
+- ["s23CustomStringConvertibleP", "Results"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "fetchData"]
+- !private ["s23CustomStringConvertibleP", "imageSelect"]
+- !private ["s23CustomStringConvertibleP", "realmDB"]
+- !private ["s23CustomStringConvertibleP", "setupUI"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["7Library9DBManagerC", "getDataFromDB"]
+- ["7Library9DBManagerC", "init"]
+- ["SQ", "DBManager"]
+- ["SQ", "Results"]
+- ["SQ", ""]
+- !private ["SQ", "fetchData"]
+- !private ["SQ", "imageSelect"]
+- !private ["SQ", "realmDB"]
+- !private ["SQ", "setupUI"]
+- !private ["SQ", "viewDidLoad"]
+- ["SH", "DBManager"]
+- ["SH", "Results"]
+- ["SH", ""]
+- !private ["SH", "fetchData"]
+- !private ["SH", "imageSelect"]
+- !private ["SH", "realmDB"]
+- !private ["SH", "setupUI"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", "DBManager"]
+- ["So8NSCodingP", "Results"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "fetchData"]
+- !private ["So8NSCodingP", "imageSelect"]
+- !private ["So8NSCodingP", "realmDB"]
+- !private ["So8NSCodingP", "setupUI"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "DBManager"]
+- ["So26NSExtensionRequestHandlingP", "Results"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "fetchData"]
+- !private ["So26NSExtensionRequestHandlingP", "imageSelect"]
+- !private ["So26NSExtensionRequestHandlingP", "realmDB"]
+- !private ["So26NSExtensionRequestHandlingP", "setupUI"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "DBManager"]
+- ["So8NSObjectC", "Results"]
+- ["So8NSObjectC", "fetchData"]
+- !private ["So8NSObjectC", "imageSelect"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "realmDB"]
+- ["So8NSObjectC", "setupUI"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "DBManager"]
+- ["So8NSObjectP", "Results"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "fetchData"]
+- !private ["So8NSObjectP", "imageSelect"]
+- !private ["So8NSObjectP", "realmDB"]
+- !private ["So8NSObjectP", "setupUI"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["7Library29ShowImageSelectViewControllerC", "DBManager"]
+- ["7Library29ShowImageSelectViewControllerC", "Results"]
+- ["7Library29ShowImageSelectViewControllerC", "deinit"]
+- ["7Library29ShowImageSelectViewControllerC", "fetchData"]
+- !private ["7Library29ShowImageSelectViewControllerC", "imageSelect"]
+- ["7Library29ShowImageSelectViewControllerC", "init"]
+- ["7Library29ShowImageSelectViewControllerC", "realmDB"]
+- ["7Library29ShowImageSelectViewControllerC", "setupUI"]
+- ["7Library29ShowImageSelectViewControllerC", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "DBManager"]
+- ["So21UIAppearanceContainerP", "Results"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "fetchData"]
+- !private ["So21UIAppearanceContainerP", "imageSelect"]
+- !private ["So21UIAppearanceContainerP", "realmDB"]
+- !private ["So21UIAppearanceContainerP", "setupUI"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "DBManager"]
+- ["So18UIContentContainerP", "Results"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "fetchData"]
+- !private ["So18UIContentContainerP", "imageSelect"]
+- !private ["So18UIContentContainerP", "realmDB"]
+- !private ["So18UIContentContainerP", "setupUI"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "DBManager"]
+- ["So18UIFocusEnvironmentP", "Results"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "fetchData"]
+- !private ["So18UIFocusEnvironmentP", "imageSelect"]
+- !private ["So18UIFocusEnvironmentP", "realmDB"]
+- !private ["So18UIFocusEnvironmentP", "setupUI"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "DBManager"]
+- ["So30UIPasteConfigurationSupportingP", "Results"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "fetchData"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageSelect"]
+- !private ["So30UIPasteConfigurationSupportingP", "realmDB"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupUI"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "DBManager"]
+- ["So11UIResponderC", "Results"]
+- ["So11UIResponderC", "fetchData"]
+- !private ["So11UIResponderC", "imageSelect"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "realmDB"]
+- ["So11UIResponderC", "setupUI"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "DBManager"]
+- ["So30UIResponderStandardEditActionsP", "Results"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "fetchData"]
+- !private ["So30UIResponderStandardEditActionsP", "imageSelect"]
+- !private ["So30UIResponderStandardEditActionsP", "realmDB"]
+- !private ["So30UIResponderStandardEditActionsP", "setupUI"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "DBManager"]
+- ["So16UIStateRestoringP", "Results"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "fetchData"]
+- !private ["So16UIStateRestoringP", "imageSelect"]
+- !private ["So16UIStateRestoringP", "realmDB"]
+- !private ["So16UIStateRestoringP", "setupUI"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "DBManager"]
+- ["So18UITraitEnvironmentP", "Results"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "fetchData"]
+- !private ["So18UITraitEnvironmentP", "imageSelect"]
+- !private ["So18UITraitEnvironmentP", "realmDB"]
+- !private ["So18UITraitEnvironmentP", "setupUI"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "DBManager"]
+- ["So23UIUserActivityRestoringP", "Results"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "fetchData"]
+- !private ["So23UIUserActivityRestoringP", "imageSelect"]
+- !private ["So23UIUserActivityRestoringP", "realmDB"]
+- !private ["So23UIUserActivityRestoringP", "setupUI"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "DBManager"]
+- ["So16UIViewControllerC", "Results"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "fetchData"]
+- !private ["So16UIViewControllerC", "imageSelect"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "realmDB"]
+- ["So16UIViewControllerC", "setupUI"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DBManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Results"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageSelect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "realmDB"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DBManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Results"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageSelect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "realmDB"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupUI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7Library9DBManagerC"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7Library29ShowImageSelectViewControllerC"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/edwardlauv/Desktop/LibraryPhoto/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "10cbfdf001a049e7595a660a671c2b35"

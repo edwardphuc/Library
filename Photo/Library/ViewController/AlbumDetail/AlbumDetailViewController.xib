@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlbumDetailViewController" customModule="Library" customModuleProvider="target">
+            <connections>
+                <outlet property="btNext" destination="LYR-vA-vrR" id="LpH-3S-pYQ"/>
+                <outlet property="btSelect" destination="yXb-21-0Ge" id="p5d-VO-H9n"/>
+                <outlet property="collectionView" destination="ezN-3v-8jk" id="en6-K8-qgg"/>
+                <outlet property="lblTittle" destination="hdY-jZ-7x2" id="le0-c3-Mve"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ezN-3v-8jk">
+                    <rect key="frame" x="0.0" y="86" width="414" height="776"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ajR-VW-8IW">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4t5-nb-ghv">
+                    <rect key="frame" x="0.0" y="44" width="414" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXb-21-0Ge">
+                            <rect key="frame" x="337" y="5" width="67" height="32"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="yXb-21-0Ge" secondAttribute="height" multiplier="67:32" id="RrS-fE-yhv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <state key="normal" title=" Choose">
+                                <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </state>
+                            <connections>
+                                <action selector="clickdown:" destination="-1" eventType="touchDown" id="HVV-5A-nli"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdY-jZ-7x2">
+                            <rect key="frame" x="186" y="10.5" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3s-4M-X9t">
+                            <rect key="frame" x="10" y="4" width="35" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="h3s-4M-X9t" secondAttribute="height" multiplier="35:34" id="nVZ-Lf-uae"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" image="xmark.circle" catalog="system">
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                            </state>
+                            <connections>
+                                <action selector="Exit:" destination="-1" eventType="touchDown" id="c8X-5T-8ce"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="hdY-jZ-7x2" firstAttribute="centerY" secondItem="4t5-nb-ghv" secondAttribute="centerY" id="6nL-4W-iDe"/>
+                        <constraint firstItem="h3s-4M-X9t" firstAttribute="top" secondItem="4t5-nb-ghv" secondAttribute="top" constant="4" id="Cvt-fo-wIG"/>
+                        <constraint firstItem="yXb-21-0Ge" firstAttribute="top" secondItem="4t5-nb-ghv" secondAttribute="top" constant="5" id="Nup-ZO-HbQ"/>
+                        <constraint firstAttribute="height" constant="42" id="V6K-sk-2jx"/>
+                        <constraint firstItem="h3s-4M-X9t" firstAttribute="centerY" secondItem="4t5-nb-ghv" secondAttribute="centerY" id="X59-yE-jwj"/>
+                        <constraint firstItem="yXb-21-0Ge" firstAttribute="centerY" secondItem="4t5-nb-ghv" secondAttribute="centerY" id="glu-bx-Yje"/>
+                        <constraint firstItem="h3s-4M-X9t" firstAttribute="leading" secondItem="4t5-nb-ghv" secondAttribute="leading" constant="10" id="iM3-33-CU2"/>
+                        <constraint firstAttribute="trailing" secondItem="yXb-21-0Ge" secondAttribute="trailing" constant="10" id="imN-Ak-Nfy"/>
+                        <constraint firstItem="hdY-jZ-7x2" firstAttribute="centerX" secondItem="4t5-nb-ghv" secondAttribute="centerX" id="vSE-nn-Wg7"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYR-vA-vrR">
+                    <rect key="frame" x="352" y="819" width="57" height="33"/>
+                    <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="LYR-vA-vrR" secondAttribute="height" multiplier="19:11" id="ZDX-jI-g7t"/>
+                        <constraint firstAttribute="height" constant="33" id="ofU-M3-G9P"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="clickDown:" destination="-1" eventType="touchDown" id="kHM-tN-T7t"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="ezN-3v-8jk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6sc-t7-kIG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LYR-vA-vrR" secondAttribute="trailing" constant="5" id="G57-1Z-XeC"/>
+                <constraint firstItem="4t5-nb-ghv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="GJb-mw-pcV"/>
+                <constraint firstItem="4t5-nb-ghv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="TNI-Zc-ZhN"/>
+                <constraint firstItem="ezN-3v-8jk" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="e1I-sh-v1k"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="LYR-vA-vrR" secondAttribute="bottom" constant="10" id="eU7-xe-MVC"/>
+                <constraint firstItem="ezN-3v-8jk" firstAttribute="top" secondItem="4t5-nb-ghv" secondAttribute="bottom" id="geU-hz-8vV"/>
+                <constraint firstItem="ezN-3v-8jk" firstAttribute="top" secondItem="4t5-nb-ghv" secondAttribute="bottom" id="l7I-Oa-ZsG"/>
+                <constraint firstItem="ezN-3v-8jk" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="lZb-hb-aKm"/>
+                <constraint firstItem="4t5-nb-ghv" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="voj-s3-rCc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

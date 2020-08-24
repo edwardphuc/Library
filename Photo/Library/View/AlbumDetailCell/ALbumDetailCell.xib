@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ALbumDetailCell" customModule="Library" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="161"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fUC-Rd-yvx">
+                        <rect key="frame" x="0.0" y="0.0" width="162" height="161"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0dd-yk-Zes">
+                        <rect key="frame" x="127" y="126.5" width="30" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="0dd-yk-Zes" secondAttribute="height" multiplier="1:1" id="0KZ-QL-SLN"/>
+                            <constraint firstAttribute="height" constant="30" id="IHy-t8-peE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fUC-Rd-yvx" secondAttribute="bottom" id="Hln-Sh-HYD"/>
+                <constraint firstAttribute="bottom" secondItem="0dd-yk-Zes" secondAttribute="bottom" constant="5" id="gVS-rx-sKe"/>
+                <constraint firstItem="fUC-Rd-yvx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gss-Ww-Ajy"/>
+                <constraint firstItem="fUC-Rd-yvx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lFg-93-DDE"/>
+                <constraint firstAttribute="trailing" secondItem="0dd-yk-Zes" secondAttribute="trailing" constant="5" id="vbl-5F-4AG"/>
+                <constraint firstAttribute="trailing" secondItem="fUC-Rd-yvx" secondAttribute="trailing" id="yl2-Fa-dAJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="162" height="161"/>
+            <connections>
+                <outlet property="imgView" destination="fUC-Rd-yvx" id="DgQ-kE-VDI"/>
+                <outlet property="tick" destination="0dd-yk-Zes" id="wcO-X1-suW"/>
+            </connections>
+            <point key="canvasLocation" x="266.66666666666669" y="157.70089285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.down.circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
