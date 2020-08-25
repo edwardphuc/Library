@@ -27,4 +27,7 @@ class ALbumDetailCell: UICollectionViewCell {
             tick.isHidden = true
         }
     }
+    func setImage(image: UIImage) {
+        imgView.image = image
+    }
 }

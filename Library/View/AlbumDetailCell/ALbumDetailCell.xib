@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,7 +20,7 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fUC-Rd-yvx">
                         <rect key="frame" x="0.0" y="0.0" width="162" height="161"/>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0dd-yk-Zes">
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0dd-yk-Zes">
                         <rect key="frame" x="127" y="126.5" width="30" height="29"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="0dd-yk-Zes" secondAttribute="height" multiplier="1:1" id="0KZ-QL-SLN"/>
@@ -47,6 +47,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="chevron.down.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="chevron.down.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>

@@ -1,0 +1,600 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DBManager"
+provides-nominal:
+- "7Library9DBManagerC"
+provides-member:
+- ["7Library9DBManagerC", ""]
+provides-dynamic-lookup:
+- "addData"
+- "database"
+- "deleteAll"
+- "deleteItem"
+- "deleteItemWith"
+- "deleteListImageSelectWithCollection"
+- "getDataFromDB"
+- "getListImageSelectWithCollection"
+- "getUIImage"
+- "getUIimage"
+- "instance"
+depends-top-level:
+- !private "..<"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGSize"
+- "DBManager"
+- !private "FloatLiteralType"
+- "ImageModel"
+- !private "IntegerLiteralType"
+- "PHAsset"
+- "PHAssetCollection"
+- !private "PHImageManager"
+- !private "PHImageRequestOptions"
+- "Realm"
+- "RealmImage"
+- "Results"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- !private "UUID"
+- "Void"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["Sa", "append"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "albumId"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "creationDate"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "filter"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "first"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "id"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "imageID"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "pixelheight"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "pixelwidth"]
+- !private ["SK", "append"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["So6CGSizeV", "init"]
+- !private ["s7CVarArgP", "albumId"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "creationDate"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "deliveryMode"]
+- !private ["s7CVarArgP", "fetchAssets"]
+- !private ["s7CVarArgP", "firstObject"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "imageID"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSynchronous"]
+- !private ["s7CVarArgP", "localIdentifier"]
+- !private ["s7CVarArgP", "pixelHeight"]
+- !private ["s7CVarArgP", "pixelWidth"]
+- !private ["s7CVarArgP", "pixelheight"]
+- !private ["s7CVarArgP", "pixelwidth"]
+- !private ["s7CVarArgP", "requestImage"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "albumId"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "creationDate"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deliveryMode"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchAssets"]
+- !private ["s28CustomDebugStringConvertibleP", "firstObject"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "imageID"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSynchronous"]
+- !private ["s28CustomDebugStringConvertibleP", "localIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelheight"]
+- !private ["s28CustomDebugStringConvertibleP", "pixelwidth"]
+- !private ["s28CustomDebugStringConvertibleP", "requestImage"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "albumId"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "creationDate"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "deliveryMode"]
+- !private ["s23CustomStringConvertibleP", "fetchAssets"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstObject"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "imageID"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSynchronous"]
+- !private ["s23CustomStringConvertibleP", "localIdentifier"]
+- !private ["s23CustomStringConvertibleP", "pixelHeight"]
+- !private ["s23CustomStringConvertibleP", "pixelWidth"]
+- !private ["s23CustomStringConvertibleP", "pixelheight"]
+- !private ["s23CustomStringConvertibleP", "pixelwidth"]
+- !private ["s23CustomStringConvertibleP", "requestImage"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["7Library9DBManagerC", "CGSize"]
+- ["7Library9DBManagerC", "DBManager"]
+- ["7Library9DBManagerC", "ImageModel"]
+- ["7Library9DBManagerC", "PHAsset"]
+- ["7Library9DBManagerC", "PHAssetCollection"]
+- !private ["7Library9DBManagerC", "PHImageManager"]
+- !private ["7Library9DBManagerC", "PHImageRequestOptions"]
+- ["7Library9DBManagerC", "Realm"]
+- ["7Library9DBManagerC", "RealmImage"]
+- ["7Library9DBManagerC", "Results"]
+- ["7Library9DBManagerC", "String"]
+- ["7Library9DBManagerC", "UIImage"]
+- !private ["7Library9DBManagerC", "UUID"]
+- ["7Library9DBManagerC", "Void"]
+- ["7Library9DBManagerC", "addData"]
+- !private ["7Library9DBManagerC", "database"]
+- ["7Library9DBManagerC", "deinit"]
+- ["7Library9DBManagerC", "deleteAll"]
+- ["7Library9DBManagerC", "deleteItem"]
+- ["7Library9DBManagerC", "deleteItemWith"]
+- ["7Library9DBManagerC", "deleteListImageSelectWithCollection"]
+- ["7Library9DBManagerC", "getDataFromDB"]
+- ["7Library9DBManagerC", "getListImageSelectWithCollection"]
+- ["7Library9DBManagerC", "getUIImage"]
+- ["7Library9DBManagerC", "getUIimage"]
+- ["7Library9DBManagerC", "init"]
+- ["7Library9DBManagerC", "instance"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "uuidString"]
+- !private ["SE", "append"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "add"]
+- !private ["SQ", "albumId"]
+- !private ["SQ", "append"]
+- !private ["SQ", "aspectFit"]
+- !private ["SQ", "count"]
+- !private ["SQ", "creationDate"]
+- !private ["SQ", "default"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "deleteAll"]
+- !private ["SQ", "deliveryMode"]
+- !private ["SQ", "fetchAssets"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "firstObject"]
+- !private ["SQ", "highQualityFormat"]
+- !private ["SQ", "id"]
+- !private ["SQ", "imageID"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSynchronous"]
+- !private ["SQ", "localIdentifier"]
+- !private ["SQ", "objects"]
+- !private ["SQ", "pixelHeight"]
+- !private ["SQ", "pixelWidth"]
+- !private ["SQ", "pixelheight"]
+- !private ["SQ", "pixelwidth"]
+- !private ["SQ", "requestImage"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["SH", "albumId"]
+- !private ["SH", "append"]
+- !private ["SH", "aspectFit"]
+- !private ["SH", "count"]
+- !private ["SH", "creationDate"]
+- !private ["SH", "default"]
+- !private ["SH", "deliveryMode"]
+- !private ["SH", "fetchAssets"]
+- !private ["SH", "firstObject"]
+- !private ["SH", "highQualityFormat"]
+- !private ["SH", "id"]
+- !private ["SH", "imageID"]
+- !private ["SH", "init"]
+- !private ["SH", "isSynchronous"]
+- !private ["SH", "localIdentifier"]
+- !private ["SH", "pixelHeight"]
+- !private ["SH", "pixelWidth"]
+- !private ["SH", "pixelheight"]
+- !private ["SH", "pixelwidth"]
+- !private ["SH", "requestImage"]
+- !private ["SH", "subscript"]
+- !private ["SH", "uuidString"]
+- !private ["7Library10ImageModelV", "asset"]
+- !private ["s22LazyCollectionProtocolP", "filter"]
+- !private ["s22LazyCollectionProtocolP", "first"]
+- !private ["s20LazySequenceProtocolP", "filter"]
+- !private ["s20LazySequenceProtocolP", "first"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "creationDate"]
+- !private ["So9NSCopyingP", "deliveryMode"]
+- !private ["So9NSCopyingP", "fetchAssets"]
+- !private ["So9NSCopyingP", "firstObject"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isSynchronous"]
+- !private ["So9NSCopyingP", "localIdentifier"]
+- !private ["So9NSCopyingP", "pixelHeight"]
+- !private ["So9NSCopyingP", "pixelWidth"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So17NSFastEnumerationP", "firstObject"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "albumId"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "creationDate"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "deliveryMode"]
+- !private ["So8NSObjectC", "fetchAssets"]
+- !private ["So8NSObjectC", "firstObject"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "imageID"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSynchronous"]
+- !private ["So8NSObjectC", "localIdentifier"]
+- !private ["So8NSObjectC", "pixelHeight"]
+- !private ["So8NSObjectC", "pixelWidth"]
+- !private ["So8NSObjectC", "pixelheight"]
+- !private ["So8NSObjectC", "pixelwidth"]
+- !private ["So8NSObjectC", "requestImage"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectP", "albumId"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "creationDate"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "deliveryMode"]
+- !private ["So8NSObjectP", "fetchAssets"]
+- !private ["So8NSObjectP", "firstObject"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "imageID"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSynchronous"]
+- !private ["So8NSObjectP", "localIdentifier"]
+- !private ["So8NSObjectP", "pixelHeight"]
+- !private ["So8NSObjectP", "pixelWidth"]
+- !private ["So8NSObjectP", "pixelheight"]
+- !private ["So8NSObjectP", "pixelwidth"]
+- !private ["So8NSObjectP", "requestImage"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["10RealmSwift6ObjectC", "albumId"]
+- !private ["10RealmSwift6ObjectC", "creationDate"]
+- !private ["10RealmSwift6ObjectC", "id"]
+- !private ["10RealmSwift6ObjectC", "imageID"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "pixelheight"]
+- !private ["10RealmSwift6ObjectC", "pixelwidth"]
+- !private ["10RealmSwift20ObservableCollectionP", "filter"]
+- !private ["10RealmSwift20ObservableCollectionP", "first"]
+- !private ["7Combine16ObservableObjectP", "albumId"]
+- !private ["7Combine16ObservableObjectP", "creationDate"]
+- !private ["7Combine16ObservableObjectP", "id"]
+- !private ["7Combine16ObservableObjectP", "imageID"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "pixelheight"]
+- !private ["7Combine16ObservableObjectP", "pixelwidth"]
+- !private ["So7PHAssetC", "creationDate"]
+- !private ["So7PHAssetC", "fetchAssets"]
+- !private ["So7PHAssetC", "localIdentifier"]
+- !private ["So7PHAssetC", "pixelHeight"]
+- !private ["So7PHAssetC", "pixelWidth"]
+- !private ["So13PHFetchResultC", "count"]
+- !private ["So13PHFetchResultC", "firstObject"]
+- !private ["So13PHFetchResultC", "subscript"]
+- !private ["So18PHImageContentModeV", "aspectFit"]
+- !private ["So14PHImageManagerC", "default"]
+- !private ["So14PHImageManagerC", "requestImage"]
+- !private ["So21PHImageRequestOptionsC", "deliveryMode"]
+- !private ["So21PHImageRequestOptionsC", "init"]
+- !private ["So21PHImageRequestOptionsC", "isSynchronous"]
+- !private ["So33PHImageRequestOptionsDeliveryModeV", "highQualityFormat"]
+- !private ["So8PHObjectC", "creationDate"]
+- !private ["So8PHObjectC", "fetchAssets"]
+- !private ["So8PHObjectC", "localIdentifier"]
+- !private ["So8PHObjectC", "pixelHeight"]
+- !private ["So8PHObjectC", "pixelWidth"]
+- !private ["So13RLMObjectBaseC", "albumId"]
+- !private ["So13RLMObjectBaseC", "creationDate"]
+- !private ["So13RLMObjectBaseC", "id"]
+- !private ["So13RLMObjectBaseC", "imageID"]
+- !private ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "pixelheight"]
+- !private ["So13RLMObjectBaseC", "pixelwidth"]
+- !private ["Sk", "append"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sm", "append"]
+- !private ["SY", "aspectFit"]
+- !private ["SY", "highQualityFormat"]
+- !private ["10RealmSwift0A0V", "add"]
+- !private ["10RealmSwift0A0V", "delete"]
+- !private ["10RealmSwift0A0V", "deleteAll"]
+- !private ["10RealmSwift0A0V", "init"]
+- !private ["10RealmSwift0A0V", "objects"]
+- !private ["10RealmSwift0A0V", "write"]
+- !private ["10RealmSwift0A10CollectionP", "filter"]
+- !private ["10RealmSwift0A10CollectionP", "first"]
+- !private ["10RealmSwift0A14CollectionBaseP", "filter"]
+- !private ["10RealmSwift0A14CollectionBaseP", "first"]
+- !private ["10RealmSwift0A15CollectionValueP", "albumId"]
+- !private ["10RealmSwift0A15CollectionValueP", "creationDate"]
+- !private ["10RealmSwift0A15CollectionValueP", "id"]
+- !private ["10RealmSwift0A15CollectionValueP", "imageID"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "pixelheight"]
+- !private ["10RealmSwift0A15CollectionValueP", "pixelwidth"]
+- !private ["7Library10RealmImageC", "albumId"]
+- !private ["7Library10RealmImageC", "creationDate"]
+- ["7Library10RealmImageC", "deinit"]
+- !private ["7Library10RealmImageC", "id"]
+- !private ["7Library10RealmImageC", "imageID"]
+- !private ["7Library10RealmImageC", "init"]
+- !private ["7Library10RealmImageC", "pixelheight"]
+- !private ["7Library10RealmImageC", "pixelwidth"]
+- !private ["10RealmSwift0A12SubscribableP", "albumId"]
+- !private ["10RealmSwift0A12SubscribableP", "creationDate"]
+- !private ["10RealmSwift0A12SubscribableP", "filter"]
+- !private ["10RealmSwift0A12SubscribableP", "first"]
+- !private ["10RealmSwift0A12SubscribableP", "id"]
+- !private ["10RealmSwift0A12SubscribableP", "imageID"]
+- !private ["10RealmSwift0A12SubscribableP", "init"]
+- !private ["10RealmSwift0A12SubscribableP", "pixelheight"]
+- !private ["10RealmSwift0A12SubscribableP", "pixelwidth"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["10RealmSwift7ResultsV", "filter"]
+- !private ["10RealmSwift7ResultsV", "first"]
+- !private ["ST", "append"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["10RealmSwift14ThreadConfinedP", "albumId"]
+- !private ["10RealmSwift14ThreadConfinedP", "creationDate"]
+- !private ["10RealmSwift14ThreadConfinedP", "filter"]
+- !private ["10RealmSwift14ThreadConfinedP", "first"]
+- !private ["10RealmSwift14ThreadConfinedP", "id"]
+- !private ["10RealmSwift14ThreadConfinedP", "imageID"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "pixelheight"]
+- !private ["10RealmSwift14ThreadConfinedP", "pixelwidth"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "albumId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deliveryMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchAssets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSynchronous"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelheight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pixelwidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "albumId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "creationDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deliveryMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchAssets"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSynchronous"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "localIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pixelHeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pixelWidth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pixelheight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pixelwidth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "albumId"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "creationDate"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "id"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "imageID"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "pixelheight"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "pixelwidth"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "filter"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "first"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- !private "Sa"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SK"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "7Library9DBManagerC"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "7Library10ImageModelV"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "10RealmSwift6ObjectC"
+- !private "10RealmSwift20ObservableCollectionP"
+- !private "7Combine16ObservableObjectP"
+- !private "So7PHAssetC"
+- !private "So13PHFetchResultC"
+- !private "So18PHImageContentModeV"
+- !private "So14PHImageManagerC"
+- !private "So21PHImageRequestOptionsC"
+- !private "So33PHImageRequestOptionsDeliveryModeV"
+- !private "So8PHObjectC"
+- !private "So13RLMObjectBaseC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10RealmSwift0A0V"
+- !private "10RealmSwift0A10CollectionP"
+- !private "10RealmSwift0A14CollectionBaseP"
+- !private "10RealmSwift0A15CollectionValueP"
+- "7Library10RealmImageC"
+- !private "10RealmSwift0A12SubscribableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10RealmSwift7ResultsV"
+- !private "ST"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation4UUIDV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10RealmSwift01_A20CollectionEnumeratorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Photos.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/edwardlauv/Desktop/Library/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "14a2842c135556d1ad9f2851eee8f4c0"

@@ -32,8 +32,11 @@ struct AlbumModel{
 
 @objcMembers class RealmImage : Object{
     dynamic var id  = UUID().uuidString
-    dynamic var image : ImageModel?
-    
+    dynamic var imageID : String = ""
+    dynamic var pixelwidth : Int = 0
+    dynamic var pixelheight : Int = 0
+    dynamic var albumId : String = ""
+    dynamic var creationDate : Date?
     override static func primaryKey() -> String? {
         return "id"
     }

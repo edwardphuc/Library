@@ -8,10 +8,12 @@
 
 import Foundation
 import RealmSwift
+import Photos
 
 class DBManager {
-    private var database: Realm
-    init(){
+    private var database : Realm
+    static let instance = DBManager()
+    init() {
         //khoi tao realm
         database = try! Realm()
     }
@@ -23,38 +25,71 @@ class DBManager {
     }
     
     //add item to db
-    func addData(object: ImageModel) {
+    func addData(object: ImageModel, nameCollection: String) {
         let item = RealmImage()
         item.id = UUID().uuidString
-        item.image = object
+        item.albumId = nameCollection
+        item.imageID = object.asset.localIdentifier
+        item.creationDate = object.asset.creationDate
+        item.pixelwidth = object.asset.pixelWidth
+        item.pixelheight = object.asset.pixelHeight
         try! database.write{
             database.add(item)
         }
     }
     
-    // delete item in database
-    func deleteItem(object: RealmImage) -> Bool {
-        do {
-            try database.write {
-                database.delete(object)
+    // get list image from collection
+    func getListImageSelectWithCollection(collection: PHAssetCollection, listimageSelect: [RealmImage], completion: ([RealmImage]) -> Void){
+        var listImageSelectwithCollection: [RealmImage] = []
+        let asset = PHAsset.fetchAssets(in: collection, options: nil)
+        for i in 0..<asset.count {
+            for item in listimageSelect {
+                if item.imageID == asset[i].localIdentifier {
+                    listImageSelectwithCollection.append(item)
+                }
             }
-            return true
         }
-        catch {
-            return false
+        completion(listImageSelectwithCollection)
+    }
+    
+    //get list image from list realmimage
+    func getUIimage(image : RealmImage, completion: (UIImage) -> Void) {
+        var result = UIImage()
+        let asset = PHAsset.fetchAssets(withLocalIdentifiers: [image.imageID], options: nil)
+        result = getUIImage(asset: asset.firstObject!)
+        completion(result)
+    }
+    
+    func getUIImage(asset: PHAsset) -> UIImage {
+        let manager = PHImageManager.default()
+        let option = PHImageRequestOptions()
+        var image = UIImage()
+        let requestOptions=PHImageRequestOptions()
+        requestOptions.isSynchronous=true
+        requestOptions.deliveryMode = .highQualityFormat
+        option.isSynchronous = true
+        manager.requestImage(for: asset, targetSize: CGSize(width: 600.0, height: 600.0), contentMode: .aspectFit, options: requestOptions, resultHandler: {(result, info)->Void in
+            guard let imgresult = result else{
+                return
+            }
+             
+            image = imgresult
+        })
+        return image
+    }
+    
+    // delete item in database
+    func deleteItemWith(image : ImageModel) {
+        let object = database.objects(RealmImage.self).filter("imageID == %@",(image.asset.localIdentifier)).first
+        try! database.write {
+            database.delete(object!)
         }
     }
     
     // delete all item in db
-    func deleteAll() -> Bool {
-        do {
-            try! database.write {
-                database.deleteAll()
-            }
-            return true
-        }
-        catch {
-            return false
+    func deleteAll() {
+        try! database.write {
+            database.deleteAll()
         }
     }
 }

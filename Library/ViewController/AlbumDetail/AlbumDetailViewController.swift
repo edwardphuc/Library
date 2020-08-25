@@ -25,7 +25,7 @@ class AlbumDetailViewController: UIViewController {
     let activity = UIActivityIndicatorView(frame: UIScreen.main.bounds)
     var listImageSelect = ConfigLibrary()
     var delegate : AlbumDetailViewControllerDelegate?
-    var realmDB = DBManager()
+    var realmDB = DBManager.instance
     override func viewDidLoad() {
         super.viewDidLoad()
         self.activity.startAnimating()
@@ -47,6 +47,8 @@ class AlbumDetailViewController: UIViewController {
 //            for i in 0..<listImage.count {
 //                listImage[i].isSelect = false
 //            }
+            
+            btNext.isHidden = true
             checkImageUnselect()
             self.collectionView.reloadData()
         }
@@ -58,6 +60,7 @@ class AlbumDetailViewController: UIViewController {
                 listImageSelect.removeImageUnselect(image: listImage[i])
                 listImage[i].isSelect = false
                 listImageSelect.saveListImageSelect()
+                realmDB.deleteItemWith(image: listImage[i])
             }
         }
     }
@@ -65,6 +68,17 @@ class AlbumDetailViewController: UIViewController {
     // click button next show image select
     @IBAction func clickDown(_ sender: Any) {
         let screenShowImage = ShowImageSelectViewController()
+        let imageFromDB = realmDB.getDataFromDB()
+        var listImageSelect : [RealmImage] = []
+        //var listImageSelectinCollection : [RealmImage] = []
+        for item in imageFromDB {
+            listImageSelect.append(item)
+        }
+        realmDB.getListImageSelectWithCollection(collection: album!.collection, listimageSelect: listImageSelect) { (results) in
+            for item in results {
+                screenShowImage.image.append(item)
+            }
+        }
         self.present(screenShowImage, animated: true)
     }
     
@@ -131,12 +145,13 @@ extension AlbumDetailViewController : UICollectionViewDelegate, UICollectionView
                 cell.tick.isHidden = false
                 listImage[indexPath.row].isSelect = true
                 listImageSelect.addImageSelect(image: listImage[indexPath.row])
-                realmDB.addData(object: listImage[indexPath.row])
+                realmDB.addData(object: listImage[indexPath.row], nameCollection: (album?.collection.localIdentifier)!)
             }
             else {
                 cell.tick.isHidden = true
                 listImage[indexPath.row].isSelect = false
                 listImageSelect.removeImageUnselect(image: listImage[indexPath.row])
+                realmDB.deleteItemWith(image: listImage[indexPath.row])
             }
             print(indexPath.row)
             listImageSelect.saveListImageSelect()

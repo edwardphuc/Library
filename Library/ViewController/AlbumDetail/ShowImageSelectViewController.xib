@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShowImageSelectViewController" customModule="Library" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="dRK-fN-9oy" id="UlR-Ow-jxR"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,16 +29,31 @@
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                 </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldr-ep-smR">
+                    <rect key="frame" x="350" y="64" width="44" height="29"/>
+                    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <state key="normal" image="list.bullet.indent" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                    </state>
+                    <connections>
+                        <action selector="sortImage:" destination="-1" eventType="touchDown" id="Qqj-w4-5Dk"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="dRK-fN-9oy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Y3o-Yl-J2L"/>
+                <constraint firstItem="dRK-fN-9oy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="4DL-40-YjG"/>
+                <constraint firstItem="ldr-ep-smR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="N65-jc-BkH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ldr-ep-smR" secondAttribute="trailing" constant="20" id="Wh3-5W-MkM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dRK-fN-9oy" secondAttribute="trailing" id="Zgt-KY-FE7"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dRK-fN-9oy" secondAttribute="bottom" id="bv8-FK-pak"/>
                 <constraint firstItem="dRK-fN-9oy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yMC-s5-JTn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="132" y="124"/>
+            <point key="canvasLocation" x="131.8840579710145" y="123.88392857142857"/>
         </view>
     </objects>
+    <resources>
+        <image name="list.bullet.indent" catalog="system" width="128" height="74"/>
+    </resources>
 </document>
