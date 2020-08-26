@@ -81,9 +81,15 @@ class DBManager {
     // delete item in database
     func deleteItemWith(image : ImageModel) {
         let object = database.objects(RealmImage.self).filter("imageID == %@",(image.asset.localIdentifier)).first
-        try! database.write {
-            database.delete(object!)
+        do {
+            try database.write {
+                database.delete(object!)
+            }
         }
+        catch{
+            print(error)
+        }
+        
     }
     
     // delete all item in db

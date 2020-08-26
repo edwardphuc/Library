@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2F72DC24F60A5300ECAF22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F72DA24F60A5300ECAF22 /* HomeViewController.swift */; };
+		5F2F72DD24F60A5400ECAF22 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F72DB24F60A5300ECAF22 /* HomeViewController.xib */; };
+		5F2F72E024F6161500ECAF22 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F72DF24F6161500ECAF22 /* Manager.swift */; };
+		5F2F72E224F61B1500ECAF22 /* CountriesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F72E124F61B1500ECAF22 /* CountriesInfo.swift */; };
+		5F2F72E424F62E6F00ECAF22 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F72E324F62E6F00ECAF22 /* API.swift */; };
+		5F2F72E724F6674800ECAF22 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F72E524F6674700ECAF22 /* DetailViewController.swift */; };
+		5F2F72E824F6674800ECAF22 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F72E624F6674800ECAF22 /* DetailViewController.xib */; };
 		5F3560AF24EE792600A3E014 /* ConfigLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3560AE24EE792600A3E014 /* ConfigLibrary.swift */; };
 		5F503B9C24ED31390001A9CE /* ALbumDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F503B9A24ED31390001A9CE /* ALbumDetailCell.swift */; };
 		5F503B9D24ED31390001A9CE /* ALbumDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F503B9B24ED31390001A9CE /* ALbumDetailCell.xib */; };
@@ -31,6 +38,13 @@
 
 /* Begin PBXFileReference section */
 		0EDE5D803E885409D29750E9 /* Pods-Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library.debug.xcconfig"; path = "Target Support Files/Pods-Library/Pods-Library.debug.xcconfig"; sourceTree = "<group>"; };
+		5F2F72DA24F60A5300ECAF22 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F2F72DB24F60A5300ECAF22 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		5F2F72DF24F6161500ECAF22 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		5F2F72E124F61B1500ECAF22 /* CountriesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesInfo.swift; sourceTree = "<group>"; };
+		5F2F72E324F62E6F00ECAF22 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5F2F72E524F6674700ECAF22 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5F2F72E624F6674800ECAF22 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		5F3560AE24EE792600A3E014 /* ConfigLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigLibrary.swift; sourceTree = "<group>"; };
 		5F503B9A24ED31390001A9CE /* ALbumDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALbumDetailCell.swift; sourceTree = "<group>"; };
 		5F503B9B24ED31390001A9CE /* ALbumDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALbumDetailCell.xib; sourceTree = "<group>"; };
@@ -76,10 +90,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F2F72D924F607F500ECAF22 /* Corona */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F72DA24F60A5300ECAF22 /* HomeViewController.swift */,
+				5F2F72DB24F60A5300ECAF22 /* HomeViewController.xib */,
+				5F2F72E524F6674700ECAF22 /* DetailViewController.swift */,
+				5F2F72E624F6674800ECAF22 /* DetailViewController.xib */,
+			);
+			path = Corona;
+			sourceTree = "<group>";
+		};
+		5F2F72DE24F6154700ECAF22 /* Corona */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F72DF24F6161500ECAF22 /* Manager.swift */,
+				5F2F72E324F62E6F00ECAF22 /* API.swift */,
+			);
+			path = Corona;
+			sourceTree = "<group>";
+		};
 		5F8BE12E24ECC39D003B9F4E /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				5F8BE12F24ECC516003B9F4E /* LibraryModel.swift */,
+				5F2F72E124F61B1500ECAF22 /* CountriesInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,6 +185,7 @@
 		5FF8496024EBF9D50029410A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F72D924F607F500ECAF22 /* Corona */,
 				5F8BE13924ED1DF5003B9F4E /* AlbumDetail */,
 				5FF8496324EBFCEE0029410A /* ListAlbumViewController.swift */,
 				5FF8496424EBFCEE0029410A /* ListAlbumViewController.xib */,
@@ -170,6 +206,7 @@
 		5FF8496224EBFA6B0029410A /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F72DE24F6154700ECAF22 /* Corona */,
 				5F8BE12C24ECC37F003B9F4E /* LibraryManager.swift */,
 				5F3560AE24EE792600A3E014 /* ConfigLibrary.swift */,
 				5F59D1AB24F3AFBE00DF38C0 /* DBManager.swift */,
@@ -253,7 +290,9 @@
 				5FF8495924EBF99B0029410A /* LaunchScreen.storyboard in Resources */,
 				5FF8495624EBF99B0029410A /* Preview Assets.xcassets in Resources */,
 				5FF8495324EBF99B0029410A /* Assets.xcassets in Resources */,
+				5F2F72E824F6674800ECAF22 /* DetailViewController.xib in Resources */,
 				5F59D1B024F3B83700DF38C0 /* ShowImageSelectViewController.xib in Resources */,
+				5F2F72DD24F60A5400ECAF22 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,13 +349,18 @@
 				5F8BE13024ECC516003B9F4E /* LibraryModel.swift in Sources */,
 				5FF8496524EBFCEE0029410A /* ListAlbumViewController.swift in Sources */,
 				5F8BE13724ECD882003B9F4E /* AlbumCell.swift in Sources */,
+				5F2F72E424F62E6F00ECAF22 /* API.swift in Sources */,
+				5F2F72E224F61B1500ECAF22 /* CountriesInfo.swift in Sources */,
 				5F59D1AF24F3B83700DF38C0 /* ShowImageSelectViewController.swift in Sources */,
+				5F2F72E724F6674800ECAF22 /* DetailViewController.swift in Sources */,
 				5FF8494D24EBF9920029410A /* AppDelegate.swift in Sources */,
 				5F503B9C24ED31390001A9CE /* ALbumDetailCell.swift in Sources */,
+				5F2F72E024F6161500ECAF22 /* Manager.swift in Sources */,
 				5F8BE13C24ED1E29003B9F4E /* AlbumDetailViewController.swift in Sources */,
 				5FF8494F24EBF9920029410A /* SceneDelegate.swift in Sources */,
 				5F8BE12D24ECC37F003B9F4E /* LibraryManager.swift in Sources */,
 				5F59D1AC24F3AFBE00DF38C0 /* DBManager.swift in Sources */,
+				5F2F72DC24F60A5300ECAF22 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

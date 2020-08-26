@@ -90,10 +90,12 @@ extension ListAlbumViewController:UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let albumdetail = AlbumDetailViewController()
+        let navAlbumdetail = UINavigationController(rootViewController: albumdetail)
         albumdetail.delegate = self
         albumdetail.album = listAlbum[indexPath.row] as? AlbumModel
         albumdetail.modalPresentationStyle = .fullScreen
-        self.present(albumdetail , animated: true)
+        navAlbumdetail.modalPresentationStyle = .fullScreen
+        self.present(navAlbumdetail , animated: true)
     }
     
 }

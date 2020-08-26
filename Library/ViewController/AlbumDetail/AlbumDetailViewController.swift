@@ -83,6 +83,7 @@ class AlbumDetailViewController: UIViewController {
     }
     
     func setupUI() {
+        self.title = album?.collection.localizedTitle
         lblTittle.text = album?.collection.localizedTitle
         btSelect.layer.cornerRadius = 5
         btNext.layer.cornerRadius = 5
@@ -91,6 +92,11 @@ class AlbumDetailViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: "ALbumDetailCell", bundle: nil), forCellWithReuseIdentifier: "ALbumDetailCell")
         checkButtonChoose()
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(Back))
+    }
+    
+    @objc func Back() {
+        self.dismiss(animated: true)
     }
     
     func checkButtonChoose() {

@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "46972eb947b107c024a416803d671365"
+build_time: [1598406712, 900013000]
+inputs:
+  "/Users/edwardlauv/Desktop/Library/Library/Common/ConfigLibrary.swift": !dirty [1598263232, 684207756]
+  "/Users/edwardlauv/Desktop/Library/Library/Model/LibraryModel.swift": !dirty [1598322003, 619704977]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/ListAlbumViewController.swift": !dirty [1598263232, 689477135]
+  "/Users/edwardlauv/Desktop/Library/Library/View/AlbumCell.swift": !dirty [1598263232, 686419387]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/AlbumDetail/ShowImageSelectViewController.swift": !dirty [1598345567, 811609997]
+  "/Users/edwardlauv/Desktop/Library/Library/AppDelegate.swift": !dirty [1598263232, 682989340]
+  "/Users/edwardlauv/Desktop/Library/Library/View/AlbumDetailCell/ALbumDetailCell.swift": !dirty [1598326204, 532730554]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/AlbumDetail/AlbumDetailViewController.swift": !dirty [1598351664, 267847594]
+  "/Users/edwardlauv/Desktop/Library/Library/SceneDelegate.swift": !dirty [1598263232, 685985988]
+  "/Users/edwardlauv/Desktop/Library/Library/Common/LibraryManager.swift": !dirty [1598263232, 684664351]
+  "/Users/edwardlauv/Desktop/Library/Library/Common/DBManager.swift": !dirty [1598351830, 38587920]

@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "27710ff428b20e86ecf9128552cabb4b"
+build_time: [1598436177, 584418000]
+inputs:
+  "/Users/edwardlauv/Desktop/Library/Library/Common/ConfigLibrary.swift": [1598263232, 684207756]
+  "/Users/edwardlauv/Desktop/Library/Library/Model/LibraryModel.swift": [1598322003, 619704977]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/ListAlbumViewController.swift": [1598409219, 420041420]
+  "/Users/edwardlauv/Desktop/Library/Library/View/AlbumCell.swift": [1598263232, 686419387]
+  "/Users/edwardlauv/Desktop/Library/Library/Common/Corona/API.swift": [1598428633, 50646383]
+  "/Users/edwardlauv/Desktop/Library/Library/Model/CountriesInfo.swift": [1598432944, 884905279]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/AlbumDetail/ShowImageSelectViewController.swift": [1598345567, 811609997]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/Corona/DetailViewController.swift": [1598435271, 328607287]
+  "/Users/edwardlauv/Desktop/Library/Library/AppDelegate.swift": [1598263232, 682989340]
+  "/Users/edwardlauv/Desktop/Library/Library/View/AlbumDetailCell/ALbumDetailCell.swift": [1598326204, 532730554]
+  "/Users/edwardlauv/Desktop/Library/Library/Common/Corona/Manager.swift": [1598432319, 922532960]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/AlbumDetail/AlbumDetailViewController.swift": [1598409597, 808645683]
+  "/Users/edwardlauv/Desktop/Library/Library/SceneDelegate.swift": [1598415078, 217193656]
+  "/Users/edwardlauv/Desktop/Library/Library/Common/LibraryManager.swift": [1598263232, 684664351]
+  "/Users/edwardlauv/Desktop/Library/Library/Common/DBManager.swift": [1598411585, 42343492]
+  "/Users/edwardlauv/Desktop/Library/Library/ViewController/Corona/HomeViewController.swift": [1598436173, 452310876]

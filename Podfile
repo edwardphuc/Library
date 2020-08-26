@@ -7,5 +7,5 @@ target 'Library' do
 
   # Pods for Library
   pod 'RealmSwift'
-
+  pod 'Alamofire', '~> 5.2'
 end
