@@ -83,7 +83,8 @@ class DBManager {
         let object = database.objects(RealmImage.self).filter("imageID == %@",(image.asset.localIdentifier)).first
         do {
             try database.write {
-                database.delete(object!)
+                guard let data = object else { return }
+                database.delete(data)
             }
         }
         catch{

@@ -115,3 +115,4 @@ extension ListAlbumViewController: AlbumDetailViewControllerDelegate {
         self.tableView.reloadData()
     }
 }
+

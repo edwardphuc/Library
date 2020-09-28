@@ -19,9 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            let nav = UINavigationController(rootViewController: ListAlbumViewController())
-            let navCorona = UINavigationController(rootViewController: HomeViewController())
-            window.rootViewController = HomeViewController()
+            let listalbum = ListAlbumViewController()
+            //navBar.view.tintColor = .red
+            window.rootViewController = listalbum
             self.window = window
             window.makeKeyAndVisible()
         }

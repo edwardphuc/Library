@@ -16,7 +16,6 @@ protocol AlbumDetailViewControllerDelegate {
 class AlbumDetailViewController: UIViewController {
 
     @IBOutlet weak var btNext: UIButton!
-    @IBOutlet weak var lblTittle: UILabel!
     @IBOutlet weak var btSelect: UIButton!
     var album  : AlbumModel?
     var listImage : [ImageModel] = []
@@ -84,7 +83,6 @@ class AlbumDetailViewController: UIViewController {
     
     func setupUI() {
         self.title = album?.collection.localizedTitle
-        lblTittle.text = album?.collection.localizedTitle
         btSelect.layer.cornerRadius = 5
         btNext.layer.cornerRadius = 5
         btNext.isHidden = true
@@ -161,6 +159,9 @@ extension AlbumDetailViewController : UICollectionViewDelegate, UICollectionView
             }
             print(indexPath.row)
             listImageSelect.saveListImageSelect()
+        }
+        else {
+            
         }
     }
     

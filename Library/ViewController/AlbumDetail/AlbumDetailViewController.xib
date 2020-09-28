@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -13,7 +13,6 @@
                 <outlet property="btNext" destination="LYR-vA-vrR" id="LpH-3S-pYQ"/>
                 <outlet property="btSelect" destination="yXb-21-0Ge" id="p5d-VO-H9n"/>
                 <outlet property="collectionView" destination="ezN-3v-8jk" id="en6-K8-qgg"/>
-                <outlet property="lblTittle" destination="hdY-jZ-7x2" id="le0-c3-Mve"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -49,36 +48,12 @@
                                 <action selector="clickdown:" destination="-1" eventType="touchDown" id="HVV-5A-nli"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdY-jZ-7x2">
-                            <rect key="frame" x="186" y="10.5" width="42" height="21"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3s-4M-X9t">
-                            <rect key="frame" x="10" y="4" width="35" height="34"/>
-                            <constraints>
-                                <constraint firstAttribute="width" secondItem="h3s-4M-X9t" secondAttribute="height" multiplier="35:34" id="nVZ-Lf-uae"/>
-                            </constraints>
-                            <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" image="xmark.circle" catalog="system">
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
-                            </state>
-                            <connections>
-                                <action selector="Exit:" destination="-1" eventType="touchDown" id="c8X-5T-8ce"/>
-                            </connections>
-                        </button>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="hdY-jZ-7x2" firstAttribute="centerY" secondItem="4t5-nb-ghv" secondAttribute="centerY" id="6nL-4W-iDe"/>
-                        <constraint firstItem="h3s-4M-X9t" firstAttribute="top" secondItem="4t5-nb-ghv" secondAttribute="top" constant="4" id="Cvt-fo-wIG"/>
                         <constraint firstItem="yXb-21-0Ge" firstAttribute="top" secondItem="4t5-nb-ghv" secondAttribute="top" constant="5" id="Nup-ZO-HbQ"/>
                         <constraint firstAttribute="height" constant="42" id="V6K-sk-2jx"/>
-                        <constraint firstItem="h3s-4M-X9t" firstAttribute="centerY" secondItem="4t5-nb-ghv" secondAttribute="centerY" id="X59-yE-jwj"/>
                         <constraint firstItem="yXb-21-0Ge" firstAttribute="centerY" secondItem="4t5-nb-ghv" secondAttribute="centerY" id="glu-bx-Yje"/>
-                        <constraint firstItem="h3s-4M-X9t" firstAttribute="leading" secondItem="4t5-nb-ghv" secondAttribute="leading" constant="10" id="iM3-33-CU2"/>
                         <constraint firstAttribute="trailing" secondItem="yXb-21-0Ge" secondAttribute="trailing" constant="10" id="imN-Ak-Nfy"/>
-                        <constraint firstItem="hdY-jZ-7x2" firstAttribute="centerX" secondItem="4t5-nb-ghv" secondAttribute="centerX" id="vSE-nn-Wg7"/>
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYR-vA-vrR">
@@ -114,7 +89,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
         </view>
     </objects>
-    <resources>
-        <image name="xmark.circle" catalog="system" width="128" height="121"/>
-    </resources>
 </document>
