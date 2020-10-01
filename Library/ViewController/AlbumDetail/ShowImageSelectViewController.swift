@@ -8,6 +8,9 @@
 
 import UIKit
 import RealmSwift
+import AVFoundation
+import Foundation
+import Photos
 
 class ShowImageSelectViewController: UIViewController {
     
@@ -22,6 +25,28 @@ class ShowImageSelectViewController: UIViewController {
         fetchData()
         // Do any additional setup after loading the view.
     }
+    @IBAction func makevideo(_ sender: Any) {
+        let videoSettings: [String : Any] = [
+            AVVideoCodecKey  : AVVideoCodecH264,
+            AVVideoWidthKey  : 600,
+            AVVideoHeightKey : 600,
+        ]
+        let rendersetting = ImagesToVideoUtils(videoSettings: videoSettings)
+        rendersetting.createMovieFrom(images: listUIimage, withCompletion: {
+            (result) in
+           let library = PHPhotoLibrary.shared()
+           library.performChanges({
+               PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: result)
+           }, completionHandler: {success, error in
+               if success {
+                   print("VideoService: Video file have been saved successfully") }
+               else {
+                   print("\n\nVideoService:  Error: failed to save video file.")
+                   print(error ?? "unknown")
+               }
+           })
+        }
+    )}
     
     func setupUI() {
         self.collectionView.delegate = self

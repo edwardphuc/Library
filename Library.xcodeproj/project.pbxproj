@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1D8C7125241FB70023C3BB /* ImagesToVideoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8C7025241FB70023C3BB /* ImagesToVideoUtils.swift */; };
 		5F3560AF24EE792600A3E014 /* ConfigLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3560AE24EE792600A3E014 /* ConfigLibrary.swift */; };
 		5F503B9C24ED31390001A9CE /* ALbumDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F503B9A24ED31390001A9CE /* ALbumDetailCell.swift */; };
 		5F503B9D24ED31390001A9CE /* ALbumDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F503B9B24ED31390001A9CE /* ALbumDetailCell.xib */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		0EDE5D803E885409D29750E9 /* Pods-Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library.debug.xcconfig"; path = "Target Support Files/Pods-Library/Pods-Library.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1D8C7025241FB70023C3BB /* ImagesToVideoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesToVideoUtils.swift; sourceTree = "<group>"; };
 		5F3560AE24EE792600A3E014 /* ConfigLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigLibrary.swift; sourceTree = "<group>"; };
 		5F503B9A24ED31390001A9CE /* ALbumDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALbumDetailCell.swift; sourceTree = "<group>"; };
 		5F503B9B24ED31390001A9CE /* ALbumDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALbumDetailCell.xib; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				5F8BE12C24ECC37F003B9F4E /* LibraryManager.swift */,
 				5F3560AE24EE792600A3E014 /* ConfigLibrary.swift */,
 				5F59D1AB24F3AFBE00DF38C0 /* DBManager.swift */,
+				5F1D8C7025241FB70023C3BB /* ImagesToVideoUtils.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				5F8BE13024ECC516003B9F4E /* LibraryModel.swift in Sources */,
 				5FF8496524EBFCEE0029410A /* ListAlbumViewController.swift in Sources */,
 				5F8BE13724ECD882003B9F4E /* AlbumCell.swift in Sources */,
+				5F1D8C7125241FB70023C3BB /* ImagesToVideoUtils.swift in Sources */,
 				5F59D1AF24F3B83700DF38C0 /* ShowImageSelectViewController.swift in Sources */,
 				5FF8494D24EBF9920029410A /* AppDelegate.swift in Sources */,
 				5F503B9C24ED31390001A9CE /* ALbumDetailCell.swift in Sources */,
